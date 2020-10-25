@@ -4,11 +4,16 @@ using System.Text;
 
 namespace ConsoleApp2
 {
+
     /// <summary>
     /// Inputs                     | Outputs
     /// "13 0123456789abcdef 01"   | 10011
     /// "9 0123456789 oF8"         | Foo
     /// "Foo oF8 0123456789"       | 9
+    /// For first input
+    /// 13 is encoded alphanumeric
+    /// 0123456789abcdef is source language
+    /// 01 is target language
     /// </summary>
     class Program
     {
